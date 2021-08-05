@@ -7,12 +7,12 @@
 The results of the time series analysis forecasts that the price of the yen is likely to rise over the next 5 days. 
 
 ###### **5-Day Yen Price Forecast**:
-![5-day Yen Price Forecast](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/5day_yen_price_fcst.png)
+![5-day Yen Price Forecast](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/5day_yen_price_fcst.png)
 
 At the same time, the volatility forecast produced by the GARCH model suggests that the price of the yen will be increasingly volatile over the same period. 
 
 ###### **5-Day Yen Volatility Forecast**:
-![5-day Yen Volatility Forecast](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/5day_yen_vol_fcst.png)
+![5-day Yen Volatility Forecast](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/5day_yen_vol_fcst.png)
 
 With all of that considered, this would be a good opportunity to buy the yen given the forecasted price appreciation, particularly if a prospective investor is comfortable with risk. 
 
@@ -24,17 +24,17 @@ Per the volatility forecast produced by the GARCH model, the risk of the yen is 
 I would not be comfortable using the ARMA and ARIMA models for forecasting future returns. Both models have p-values that are significantly higher than the acceptable threshold of 0.05 (0.421 & 0.652, respectively). 
 
 ###### **ARMA Model Results**:
-![ARMA Model Results](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/ARMA_model_results.png)
+![ARMA Model Results](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/ARMA_model_results.png)
 
 ###### **ARIMA Model Results**:
-![ARIMA Model Results](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/ARIMA_model_results.png)
+![ARIMA Model Results](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/ARIMA_model_results.png)
 
 As a result, I would likely need to adjust the lags used to improve the model results before using either model to provide actionable trading insight.
 
 The GARCH model, on the other hand, does have a p-value below the accepted threshold of 0.05. 
 
 ###### **GARCH Model Results**:
-![ARIMA Model Results](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/GARCH_model_results.png)
+![GARCH Model Results](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/GARCH_model_results.png)
 
 This suggests that the AR lags and ARCH terms selected for the model are significant, and that the model will likely produce relatively sound forecasts. 
 
@@ -45,9 +45,9 @@ This suggests that the AR lags and ARCH terms selected for the model are signifi
 The linear regression model appears to perform better on the out-of-sample data than the in-sample data; the in-sample RMSE (0.596) is higher than the out-of-sample RMSE (0.415).
 
 ###### **In-Sample RMSE**:
-![ARIMA Model Results](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/in_RMSE.png)
+![In-Sample Results](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/in_RMSE.png)
 
 ###### **Out-of-Sample RMSE**:
-![ARIMA Model Results](/Users/nsgolthi/Desktop/fintech_bc/Homework/assignment6_time_series/Time-Series/Images/out_RMSE.png)
+![Out-of-Sample Results](https://github.com/Nik-Golthi/Time-Series/blob/main/Images/out_RMSE.png)
 
 To address these unexpected results, I believe we should consider expanding our pool of sample data. By using more data, it is likely that our in-sample performance increases. 
